@@ -36,7 +36,7 @@ body {
 }
 
 .painel {
-    background: url(../images/painel.jpg) center center no-repeat; 
+    background: url(../images/painel.jpg) center center no-repeat;
     height: 600px;
 
 }
@@ -54,7 +54,7 @@ body {
 .secao-com-texto {
     padding: 153px;
     text-align: center;
-    
+    clear: both;
 
 }
 
@@ -65,9 +65,9 @@ body {
 }
 
 .secao-com-texto h2 {
-   font-size: 45px;
-   font-weight: 600px;
-   margin-bottom: 37px;
+    font-size: 45px;
+    font-weight: 600px;
+    margin-bottom: 37px;
 }
 
 .secao-com-texto p {
@@ -76,6 +76,34 @@ body {
     margin: 0 auto;
 }
 
-.secao-com-texto.onde-estamos p{
+.secao-com-texto.onde-estamos p {
     font-size: 28px;
+}
+
+.ladrilho div {
+    float: left;
+}
+
+.ladrilho .grande {
+    background: url(../images/4.jpg) center center no-repeat;
+    height: 600px;
+    width: 50%;
+}
+
+.ladrilho .pequeno {
+    background: url(../images/2.jpg) center center no-repeat;
+    height: 300px;
+    width: 25%;
+}
+
+.ladrilho .pequeno-dois {
+    background: url(../images/3.jpg) center center no-repeat;
+    height: 300px;
+    width: 25%;
+}
+
+.ladrilho .medio {
+    background: url(../images/1.jpg) center center no-repeat;
+    height: 300px;
+    width: 50%;
 }
